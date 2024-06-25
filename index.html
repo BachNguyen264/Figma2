@@ -1,54 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- reset css -->
-     <link rel="stylesheet" href="./assets/css/reset.css">
-     <!-- favicon -->
-      <link rel="shortcut icon" href="./assets/ico/favicon.png" type="image/x-icon">
-     <!-- embed font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <!-- style -->
-       <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/ico/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Besnik.</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
     <div class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- logo -->
+          <img src="./assets/ico/Logo.svg" alt="Besnik." />
+          <!-- navbar-->
+          <nav class="nav">
+            <ul>
+              <li>
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Features</a>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">About</a>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- button -->
+          <div class="action">
+            <a href="#!" class="action-link">Sign in</a>
+            <a href="#!" class="action-link">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+    <main>
+      <div class="hero">
         <div class="main-content">
-            <div class="body">
-                <!-- logo -->
-                 <img src="./assets/ico/Logo.svg" alt="Besnik.">
-                 <!-- navbar-->
-                <nav class="nav">
-                    <ul>
-                        <li>
-                            <a href="#!">Home</a>
-                        </li>
-                        <li>
-                            <a href="#!">Features</a>
-                        </li>
-                        <li>
-                            <a href="#!">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#!">About</a>
-                        </li>
-                        <li>
-                            <a href="#!">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- button -->
-                 <div class="action">
-                    <a href="#!" class="action-link btn">Sign in</a>
-                    <a href="#!" class="action-link btn">Sign up</a>
+          <div class="body">
+            <!-- Hero left -->
+            <div class="content-block">
+                 <p class="top-title">😎 EASY LEAENING PLATFORM</p>
+                 <h1 class="title">Words learner come here.</h1>
+                 <p class="desc">Build skills with courses, certificates, and get online knowledge from our <span>world-class platform.</span></p>
+                 <div class="cta-group">
+                    <a href="#!" class="btn">Get Started</a>
+                    <button class="play"> <img src="./assets/ico/play.svg" alt=""></button>
                  </div>
             </div>
+             <!-- Hero right -->
+              <div class="media-block">
+                <img src="./assets/img/heroright.jpg" alt="Teacher" class="media">
+                <div class="course">
+                    <img src="./assets/ico/Book.svg" alt="book" class="course-icon">
+                    <span class="detail">Courses 1000+</span>
+                </div>
+                <div class="schedule">
+                    <span>Schedules</span>
+                    <img src="./assets/ico/schedule1.svg" alt="" class="schedules-icon icon1">
+                    <img src="./assets/ico/schedule2.svg" alt="" class="schedules-icon icon2">
+                    <img src="./assets/ico/schedule3.svg" alt="" class="schedules-icon icon3">
+                    <img src="./assets/ico/schedule4.svg" alt="" class="schedules-icon icon4">
+                </div>
+                <div class="member">
+                    <span class="mem-title">Our Active Students</span>
+                   <div class="ava-list">
+                        <img src="./assets/img/ava1.jpg" alt="" class="ava">
+                        <img src="./assets/img/ava2.jpg" alt="" class="ava">
+                        <img src="./assets/img/ava3.jpg" alt="" class="ava">
+                        <img src="./assets/img/ava4.jpg" alt="" class="ava">
+                        <div class="ava avamore">
+                            <span>10K+</span>
+                        </div>
+                   </div>
+                </div>
+              </div>
+          </div>
         </div>
-    </div>
-</body>
+      </div>
+    </main>
+  </body>
 </html>
