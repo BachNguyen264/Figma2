@@ -54,11 +54,15 @@ a {
 
 .header .body {
   padding-top: 57px;
+  padding-bottom: 8px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
+.header .nav{
+    margin-left: 235px;
+    padding: 8px 0;
+}
 .header .nav ul {
   display: flex;
   gap: 39px;
@@ -73,6 +77,9 @@ a {
   text-shadow: 0.8px 0px;
 }
 
+.header .action{
+    margin-left: auto;
+}
 .header .action-link {
   display: inline-flex;
   justify-content: center;
@@ -92,7 +99,7 @@ a {
 
 /* ===================Hero================= */
 .hero{
-    padding: 50px 0 79px;
+    padding: 42px 0 79px;
 }
 .hero .body{
     display: flex;
