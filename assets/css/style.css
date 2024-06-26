@@ -359,10 +359,28 @@ a {
 }
 
 .features .item-desc{
-    max-width: 168px;
     color: #9DA6A5;
     font-size: 1.6rem;
     font-style: normal;
     line-height: 1.69; /* 168.75% */
 }
 
+.features .item1{
+    width: 14.36%;
+}
+.features .item2{
+    width: 19.06%;
+}
+.features .item3{
+    width: 19.15%;
+}
+/* .feature-list .item1 .item-desc{
+    max-width: 168px;
+}
+.feature-list .item2 .item-desc{
+    max-width: 223px;
+}
+
+.feature-list .item3 .item-desc{
+    max-width: 224px;
+} */
