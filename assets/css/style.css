@@ -457,12 +457,14 @@ a {
     color: #0D1111;
     font-size: 2.2rem;
     font-weight: 700;  
+    line-height: normal;
 }
 
 .popular .course-info .price{
     margin-top: 16px;
     color: #767E7E;
     font-size: 1.6rem; 
+    line-height: normal;
 }
 
 .popular .course-info strong{
@@ -476,6 +478,7 @@ a {
     color: #9DA6A5;
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .popular .static{
@@ -486,6 +489,7 @@ a {
 .popular .static span{
     color: #9DA6A5;
     font-size: 1.4rem;
+    line-height: normal;
 }
 
 .popular .static span::before{
