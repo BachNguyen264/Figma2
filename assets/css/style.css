@@ -41,6 +41,13 @@ a {
 .btn:hover{
     opacity: 0.85;
 }
+
+.heading-lv2{
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
 /* ===========header============ */
 .header {
   background: #fff;
@@ -296,3 +303,66 @@ a {
     font-size: 1rem;
     font-weight: 500;
 }
+
+/* =================Features============= */
+
+.features{
+    padding: 130px 0 65px;
+}
+
+.features .title{
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700; 
+}
+
+.features .heading-lv2{
+    max-width: 577px; 
+    margin-top: 18px;      
+}
+
+.features .desc{
+    margin-top: 18px;
+    max-width: 590px;
+    color: #767E7E;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.features .feature-list{
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature-list .item2{
+    margin-left: 209px;
+}
+
+.feature-list .item3{
+    margin-left: 200px;
+}
+
+.feature-item img:hover{
+    opacity: 0.9;
+}
+
+.features .item-title{
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features .item-title:hover{
+    text-decoration: underline 2.5px;
+}
+
+.features .item-desc{
+    max-width: 168px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 1.69; /* 168.75% */
+}
+
