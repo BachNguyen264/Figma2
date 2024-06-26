@@ -48,6 +48,12 @@ a {
     font-weight: 700;
     line-height: 1.33; /* 133.333% */
 }
+
+.top-title{
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700; 
+}
 /* ===========header============ */
 .header {
   background: #fff;
@@ -310,12 +316,6 @@ a {
     padding: 130px 0 65px;
 }
 
-.features .title{
-    color: #767E7E;
-    font-size: 1.2rem;
-    font-weight: 700; 
-}
-
 .features .heading-lv2{
     max-width: 577px; 
     margin-top: 18px;      
@@ -384,3 +384,114 @@ a {
 .feature-list .item3 .item-desc{
     max-width: 224px;
 } */
+
+/* ===============Course============= */
+.popular{
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+.popular .heading-lv2{
+    margin-top: 18px;
+}
+
+.popular .row-top{
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .row-top .desc{
+    max-width: 525px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: 1.78; /* 177.778% */
+}
+
+.popular .row-top .all-course{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.popular .row-top .all-course:hover{
+    text-decoration: underline 2px;
+    opacity: 0.9;
+}
+
+.popular .course-list{
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular .course-item{
+    position: relative;
+}
+.popular .course-item img{
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.8;
+    background: #fff;
+}
+
+.popular .course-info{
+    position: absolute;
+    bottom: -124px;
+    left: 17px;
+    width: 325px;
+    height: 195px;
+    padding: 18px 25px 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .course-info .item-title{
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;  
+}
+
+.popular .course-info .price{
+    margin-top: 16px;
+    color: #767E7E;
+    font-size: 1.6rem; 
+}
+
+.popular .course-info strong{
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .course-info .item-desc{
+    margin-top: 6px;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.popular .static{
+    margin-top: 18px;
+    margin-left: -10px;
+}
+
+.popular .static span{
+    color: #9DA6A5;
+    font-size: 1.4rem;
+}
+
+.popular .static span::before{
+    display: inline-block;
+    margin: 0 10px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: var(--primary-color);
+}
