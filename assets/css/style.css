@@ -387,10 +387,12 @@ a {
 
 /* ===============Course============= */
 .popular{
-    padding-top: 65px;
-    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
+.popular .body{
+    padding: 50px 0 184px;
+}
 .popular .heading-lv2{
     margin-top: 18px;
 }
@@ -494,4 +496,30 @@ a {
     height: 6px;
     border-radius: 100%;
     background: var(--primary-color);
+}
+
+/* ============Count down========== */
+.count-down{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.count-down .body{
+    margin: 0 auto;
+    width: 73.68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-down strong{
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.count-down .desc{
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: normal;
 }
