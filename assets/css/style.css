@@ -649,3 +649,31 @@ a {
     right: 32px;
     bottom: -8px;
 }
+/* ================Admit============== */
+.admit{
+    margin-top: 130px;
+    background: #DEF6F5;
+}
+
+.admit .body{
+    display: flex;
+    align-items: center;
+    gap: 410px;
+
+}
+
+.admit .heading-lv2{
+    margin-top: 76px;
+}
+
+.admit .desc{
+    margin-top: 18px;
+    margin-bottom: 88px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.admit .btn{
+    display: inline-block;
+}
